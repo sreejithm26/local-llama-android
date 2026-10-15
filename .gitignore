@@ -1,0 +1,48 @@
+# Models and weights (GGUF, checkpoints, large binaries)
+models/*
+!models/.gitkeep
+*.gguf
+*.bin
+*.safetensors
+*.pt
+*.onnx
+
+# Cloned upstream repository / subprojects
+llama.cpp/
+
+# Build artifacts & compiled binaries
+build/
+build-*/
+bin/
+*.so
+*.o
+*.a
+*.obj
+*.exe
+*.dll
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosv
+*.sln.docstates
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temporary files
+*.log
+scratch/
